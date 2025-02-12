@@ -1,0 +1,58 @@
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 80px auto 0;
+}
+
+body {
+    background: #140E17;
+    color: white;
+    padding: 0 20px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    color: #F5FA93;
+} 
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.icon-chat {
+    max-width: 56px;
+    width: 100%;
+    padding: 16px;
+    background: #F5FA93;
+    border-radius: 99px;
+    display: flex;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+
+
+@media screen and (max-width:768px)  {
+    .container {
+        max-width: 728px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+
+    .container {
+        max-width: 335px;
+        width: 100%;
+    }
+}
